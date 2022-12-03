@@ -1,0 +1,23 @@
+#root{
+    background-image: linear-gradient(#bdc3c7, #2c3e50);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.FrontendForm{
+    
+    justify-content: center;
+}
+.formHeading{
+    color: lemonchiffon;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.formLabel{
+    font-weight: bolder;
+}
+.formfields{
+    margin-top: 37px;
+}
