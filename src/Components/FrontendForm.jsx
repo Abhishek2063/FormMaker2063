@@ -10,17 +10,17 @@ const FrontendForm = () => {
         <div className="col-4 formfields w-100">
           <label className='formLabel' >First Name</label>
           <CustomForm
-            name="FirstName"
+            name="Name"
             type="text"
-            placeholder="Enter first name."
+            placeholder="Enter name."
             validationCheck="alphabetics"
             maxlength="50"
             minlength="2"
           />
         </div>
 
-         {/* User Name */}
-         <div className="col-4 formfields w-100">
+        {/* User Name */}
+        <div className="col-4 formfields w-100">
           <label className='formLabel' >Username</label>
           <CustomForm
             name="Username"
@@ -32,8 +32,8 @@ const FrontendForm = () => {
           />
         </div>
 
-         {/* Email */}
-         <div className="col-4 formfields w-100">
+        {/* Email */}
+        <div className="col-4 formfields w-100">
           <label className='formLabel' >Email</label>
           <CustomForm
             name="Email"
@@ -42,6 +42,121 @@ const FrontendForm = () => {
             validationCheck="email"
           />
         </div>
+
+        {/* Phone Number */}
+        <div className="col-4 formfields w-100">
+          <label className='formLabel' >Contact Number</label>
+          <CustomForm
+            name="contactNumber"
+            type="tel"
+            placeholder="Enter contact number."
+            validationCheck="onlyNumber"
+            maxlength="10"
+            minlength="10"
+          />
+        </div>
+
+        {/* Age */}
+        <div className="col-4 formfields w-100">
+          <label className='formLabel' >Age</label>
+          <CustomForm
+            name="age"
+            type="number"
+            placeholder="Enter your age."
+            validationCheck="onlyNumber"
+            maxlength="2"
+            minlength="1"
+          />
+        </div>
+
+        {/* Linkdin URL */}
+        <div className="col-4 formfields w-100">
+          <label className='formLabel' >Linkdin URL</label>
+          <CustomForm
+            name="linkdinURL"
+            type="url"
+            placeholder="Enter your linkdin url."
+            validationCheck="urlCheck"
+          />
+        </div>
+
+        {/* Password */}
+        <div className="col-4 formfields w-100">
+          <label className='formLabel' >Password</label>
+          <CustomForm
+            name="password"
+            type="password"
+            placeholder="Enter your password."
+            validationCheck="password"
+            maxlength="30"
+            minlength="8"
+          />
+        </div>
+
+        {/* Page Rating */}
+        <div className="col-8 formfields w-100">
+          <label className='formLabel' >Site Like Points</label>
+          <div className="row">
+            <div className="col">
+              <CustomForm
+                name="design"
+                type="checkbox"
+                placeholder="Click atleast one checkbox."
+              />
+            </div>
+            <div className="col">
+              <CustomForm
+                name="functionality"
+                type="checkbox"
+                placeholder="Click atleast one checkbox."
+              />
+            </div>
+            <div className="col">
+              <CustomForm
+                name="overAllGood"
+                type="checkbox"
+                placeholder="Click atleast one checkbox."
+              />
+            </div>
+          </div>
+        </div>
+
+         {/* Page Rating */}
+         <div className="col-12 formfields w-100">
+          <label className='formLabel' >Site Rating</label>
+          <div className="row">
+            <div className="col">
+              <CustomForm
+                name="bad"
+                type="radio"
+                placeholder="Click atleast one radio."
+              />
+            </div>
+            <div className="col">
+              <CustomForm
+                name="medium"
+                type="radio"
+                placeholder="Click atleast one radio."
+              />
+            </div>
+            <div className="col">
+              <CustomForm
+                name="Good"
+                type="radio"
+                placeholder="Click atleast one radio."
+              />
+            </div>
+            <div className="col">
+              <CustomForm
+                name="Best"
+                type="radio"
+                placeholder="Click atleast one radio."
+              />
+            </div>
+          </div>
+        </div>
+
+
 
       </div>
     </div>

@@ -5,6 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 721px
 }
 .FrontendForm{
     
@@ -15,8 +16,9 @@
     text-decoration: underline;
     font-weight: bolder;
 }
-.formLabel{
+.formLabel,.form-check-label{
     font-weight: bolder;
+    color: antiquewhite;
 }
 .formfields{
     margin-top: 37px;

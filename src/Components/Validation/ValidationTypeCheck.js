@@ -26,7 +26,27 @@ export const validateInputs = (inputText, type) => {
             }
             return 'empty';
 
+            case 'onlyNumber' : 
+            if (inputText) {
+                const onlyNumber = /^[0-9]+$/;
+                return onlyNumber.test(inputText.trim());
+            }
+            return 'empty';
+            
+            case 'urlCheck' : 
+            if (inputText) {
+                const urlCheck = /^http[s]?:\/\/www\.linkedin\.com\/(?:in|pub|public-profile\/in|public-profile\/pub)\/(?:[\w]{1,}-[\w]{1,}-[\w]+)$/ 
+                return urlCheck.test(inputText.trim());
+            }
+            return 'empty';
 
+            
+            case 'password' : 
+            if (inputText) {
+                const onlyNumber = /^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\d)(?=.*[!&$%&?@ "]).*$/;
+                return onlyNumber.test(inputText.trim());
+            }
+            return 'empty';
 
         default:
     }
