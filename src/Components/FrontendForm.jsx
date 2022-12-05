@@ -7,7 +7,7 @@ const FrontendForm = () => {
       <h1 className='formHeading'>Form Maker</h1>
       <div className='row  FrontendForm'>
         {/* First Name */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >First Name</label>
           <CustomForm
             name="Name"
@@ -20,7 +20,7 @@ const FrontendForm = () => {
         </div>
 
         {/* User Name */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >Username</label>
           <CustomForm
             name="Username"
@@ -33,7 +33,7 @@ const FrontendForm = () => {
         </div>
 
         {/* Email */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >Email</label>
           <CustomForm
             name="Email"
@@ -44,7 +44,7 @@ const FrontendForm = () => {
         </div>
 
         {/* Phone Number */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >Contact Number</label>
           <CustomForm
             name="contactNumber"
@@ -57,7 +57,7 @@ const FrontendForm = () => {
         </div>
 
         {/* Age */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >Age</label>
           <CustomForm
             name="age"
@@ -70,7 +70,7 @@ const FrontendForm = () => {
         </div>
 
         {/* Linkdin URL */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >Linkdin URL</label>
           <CustomForm
             name="linkdinURL"
@@ -81,7 +81,7 @@ const FrontendForm = () => {
         </div>
 
         {/* Password */}
-        <div className="col-4 formfields w-100">
+        <div className="col-lg-4 col-md-4 col-12 formfields w-100">
           <label className='formLabel' >Password</label>
           <CustomForm
             name="password"
@@ -94,7 +94,7 @@ const FrontendForm = () => {
         </div>
 
         {/* Page Rating */}
-        <div className="col-8 formfields w-100">
+        <div className="col-lg-8 col-md-8 col-12 formfields w-100">
           <label className='formLabel' >Site Like Points</label>
           <div className="row">
             <div className="col">
@@ -122,7 +122,7 @@ const FrontendForm = () => {
         </div>
 
          {/* Page Rating */}
-         <div className="col-12 formfields w-100">
+         <div className="col-lg-12 col-md-12 col-12 formfields w-100">
           <label className='formLabel' >Site Rating</label>
           <div className="row">
             <div className="col">
